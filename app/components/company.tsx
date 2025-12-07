@@ -4,9 +4,9 @@ export default function Company() {
     return(
         <>
         {/* Company */}
-        <div className="flex flex-col justify-center m-auto w-3/5 mt-10">
-            <div>
-                <p className="font-bold text-productivity text-[40px] my-10">
+        <div className="flex flex-col justify-center m-auto w-4/5 mt-10 mx-auto">
+            <div className="my-10 mx-auto w-fit">
+                <p className="font-bold text-productivity text-[40px]">
                     More than 25,000 teams use Collabs
                 </p>
             </div>

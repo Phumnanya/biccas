@@ -14,7 +14,7 @@ export default function Heading() {
             <div className="flex flex-row justify-between items-center w-2/3">
                 {/* navigation links */}
                 <nav className="w-2/3 flex flex-row justify-evenly">
-                    <Link href="#" className="font-medium text-[18px] text-black">Home</Link>
+                    <Link href="#" className="font-medium text-lg text-black">Home</Link>
                     <Link href="#" className="font-medium text-base text-links">Product</Link>
                     <Link href="#" className="font-medium text-base text-links">FAQ</Link>
                     <Link href="#" className="font-medium text-base text-links">Blog</Link>
