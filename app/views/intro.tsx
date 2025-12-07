@@ -1,4 +1,6 @@
 import Heading from "../components/heading";
+import Hero_img from "../components/hero";
+import Company from "../components/company";
 
 export default function Intro() {
     return(
@@ -45,8 +47,10 @@ export default function Intro() {
       />
 
       {/* Content */}
-      <div className="relative p-10">
+      <div className="relative p-10 z-10">
         <Heading />
+        <Hero_img />
+        <Company />
       </div>
     </div>
     )
