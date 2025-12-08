@@ -5,35 +5,34 @@ import Chooseplan from "../components/chooseplan"
 
 export default function Gradient() {
     return(
-        <div className="relative h-fit w-full bg-white overflow-hidden py-6 mx-auto">
-              
-            {/* Blob 1 */}
-      <div
-        className="absolute w-[634px] h-[634px] rounded-full blur-[1000px] opacity-100"
-        style={{
-          background: "#FFD6D6",
-          top: "-2176px",
-          left: "-194px",
-        }}
-      />
-
-      {/* Blob 2 */}
-      <div
-        className="absolute w-[634px] h-[634px] rounded-full blur-[1000px] opacity-60"
-        style={{
-          background: "#54BE96",
-          top: "3278x",
-          left: "1123px",
-        }}
-      />
-        
-            {/* Content */}
-            <div className="relative p-10 z-10">
-                <Features />
-                <Features2 />
-                <Benefits />
-                <Chooseplan />
-            </div>
+        <div className="w-full h-fit">
+          {/*  ellipse 1 */}
+          <div className="absolute w-[634px] h-[634px] top-[2176px] left-[-194px] 
+            bg-[radial-gradient(circle,#FFD6D6,transparent)] overflow-hidden
+            opacity-100 pointer-events-none">
+          </div>
+          {/* Content */}
+          <div className="relative z-10 p-10">
+              <Features />
+              <Features2 />
+              <Benefits />
+              <Chooseplan />
+          </div>
         </div>
     )
 }
+
+/*
+/*  ellipse 2 *
+          <div className="absolute w-[634px] h-[634px] top-[3278px] left-[1123px] 
+            bg-[radial-gradient(circle,#54BE96,transparent)] overflow-hidden
+            opacity-100 pointer-events-none">
+          </div>
+          width: 634;
+height: 634;
+angle: 0 deg;
+opacity: 1;
+top: 3278px;
+left: 1123px;
+
+          */

@@ -28,7 +28,7 @@ export default function Chooseplan() {
             {/* billing yearly */}
             <div>
                 <button type="button" className="text-lg font-medium text-center
-                text-productivity w-40 h-14 rounded-[10px] bg-biccas">
+                text-white w-40 h-14 rounded-[10px] bg-biccas">
                     Bill Yearly
                 </button>
             </div>
