@@ -1,5 +1,7 @@
 import Features from "../components/features"
 import Features2 from "../components/listed-features"
+import Benefits from "../components/benefit"
+import Chooseplan from "../components/chooseplan"
 
 export default function Gradient() {
     return(
@@ -29,6 +31,8 @@ export default function Gradient() {
             <div className="relative p-10 z-10">
                 <Features />
                 <Features2 />
+                <Benefits />
+                <Chooseplan />
             </div>
         </div>
     )
