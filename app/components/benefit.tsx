@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Benefits() {
     return(
-        <section className="flex md:flex-row flex-col justify-between my-40">
+        <section className="flex flex-row  justify-between my-40">
             <div className="flex flex-col">
                 {/* what Benifit header */}
                 <header className="md:w-[429px] md:h-[122px]">
@@ -38,8 +38,8 @@ export default function Benefits() {
                 <br />
             </div>
             {/* Laptop image */}
-            <div className="relative md:w-[450px] w-full">
-                <Image src="/What Benifit.png" alt="Laptop" fill className="md:object-cover object-contain" />
+            <div className="relative md:w-[450px] w-[200px]">
+                <Image src="/What Benifit.png" alt="Laptop" fill className="object-cover" />
             </div>
         </section>
     )
