@@ -2,8 +2,9 @@ import Image from "next/image"
 
 export default function Ratings() {
     return(
-        <div className="w-2/5">
-            <header className="text-productivity font-semibold text-5xl">
+        <div className="md:w-2/5 w-full">
+            <header className="text-productivity font-semibold md:text-[50px]
+            text-2xl">
                 <p>How we support our partners all over the world</p>
             </header>
             <main className="font-medium text-base text-links">
@@ -16,18 +17,18 @@ export default function Ratings() {
                 {/*  databricks */}
                 <div>
                     <Image src="/Group 151.svg" alt="play" width={100} height={80} />
-                    <p className="font-bold text-lg text-productivity">
+                    <p className="font-bold md:text-lg text-productivity">
                         4.9 <span className="font-normal text-lg">/</span> 5 rating
                     </p>
-                    <p className="font-bold text-lg text-links">databricks</p>
+                    <p className="font-bold md:text-lg text-links">databricks</p>
                 </div>
                 {/*  chain analysis */}
                 <div>
                     <Image src="/Group 152.svg" alt="play" width={100} height={80} />
-                    <p className="font-bold text-lg text-productivity">
+                    <p className="font-bold md:text-lg text-productivity">
                         4.8<span className="font-normal text-lg">/</span>5 rating
                     </p>
-                    <p className="font-bold text-lg text-links">Chainanalysis</p>
+                    <p className="font-bold md:text-lg text-links">Chainanalysis</p>
                 </div>
             </div>
         </div>
