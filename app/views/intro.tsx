@@ -47,7 +47,7 @@ export default function Intro() {
       />
 
       {/* Content */}
-      <div className="relative p-10 z-10">
+      <div className="relative z-10 h-fit pb-20 px-5">
         <Heading />
         <Hero_img />
         <Company />
