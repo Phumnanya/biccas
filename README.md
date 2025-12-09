@@ -24,4 +24,4 @@ This project uses [`next/font`](https://nextjs.org/docs/app/building-your-applic
 
 This is a landing page UI that was replicated into code from a figma design for a technical assessment Interview for RAJ consulting. it is a simple UI that markets a specific product and aims to give as much information as possible to the visitor about their product as soon as they come into the website without much hassle. This project was built using Nextjs, tailwindCSS, and typescript.
 
-The live view of this project is hosted on vercel hosting platform through this link: https://
+The live view of this project is hosted on vercel hosting platform through this link: https://biccas-mocha.vercel.app/
